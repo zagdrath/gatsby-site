@@ -1,7 +1,7 @@
 // Imports
 import * as React from 'react'
 import { Link } from 'gatsby'
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import favicon from '../images/favicon.ico'
 import { StaticImage } from 'gatsby-plugin-image'
 
