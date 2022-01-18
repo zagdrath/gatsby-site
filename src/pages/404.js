@@ -1,6 +1,7 @@
 // Import React
 import * as React from 'react'
 import {Helmet} from "react-helmet";
+import favicon from '../images/favicon.ico'
 
 // Define component
 const NotFoundPage = () => {
@@ -9,7 +10,7 @@ const NotFoundPage = () => {
       <Helmet>
         <title>Error 404 - Not Found</title>
         <meta charset="UTF-8"></meta>
-        <meta name="icon" href="../images/favicon.ico"/>
+        <link rel="icon" href={favicon}/>
         <meta name="theme-color" content="#ebdbb2"></meta>
         <meta name="description" content="Zagdrath's personal website"></meta>
       </Helmet>

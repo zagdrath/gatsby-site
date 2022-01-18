@@ -2,6 +2,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import {Helmet} from "react-helmet";
+import favicon from '../images/favicon.ico'
 import { StaticImage } from 'gatsby-plugin-image'
 
 // Define component
@@ -11,7 +12,7 @@ const IndexPage = () => {
       <Helmet>
         <title>Zagdrath</title>
         <meta charset="UTF-8"></meta>
-        <meta name="icon" href="../images/favicon.ico"/>
+        <link rel="icon" href={favicon}/>
         <meta name="theme-color" content="#ebdbb2"></meta>
         <meta name="description" content="Zagdrath's personal website"></meta>
         <script src="https://kit.fontawesome.com/97db0162e4.js" crossorigin="anonymous"></script>
